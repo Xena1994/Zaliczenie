@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:600');
+
+html { 
+    background: url(../../MainPageBackground.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body { 
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+#header { 
+    font-size: 40px;
+    top: 30px;
+    right: 525px;
+    position: absolute;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#lightbox { 
+    background-color:  #f2f2f2;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding;
+    background-clip: padding-box;
+    border: 20px solid rgba(0,0,0,0.3);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 20px;
+    width: 1000px;
+    text-align: center;
+    position: absolute;
+    color: black;
+    top: 150px;
+    left: 200px;
+}
+
